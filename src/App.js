@@ -2,7 +2,11 @@ import "./App.css";
 import Parent from "./Components/Parent";
 
 function App() {
-  return <Parent />;
+  return (
+    <div className="App">
+      <Parent />
+    </div>
+  );
 }
 
 export default App;
